@@ -1,0 +1,41 @@
+{
+	"$schema": "https://schemas.elgato.com/streamdeck/plugins/manifest.json",
+	"Software": {
+		"MinimumVersion": "6.4"
+	},
+	"Name": "VC Kicker",
+	"Author": "EmilyxFox",
+	"Version": "0.1.0.0",
+	"Category": "VC Kicker",
+	"CategoryIcon": "img/go-logo",
+	"Description": "A GoLang StreamDeck plugin.",
+	"UUID": "com.emilyxfox.vckicker",
+	"SDKVersion": 2,
+	"OS": [
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"CodePath": "plugin.exe",
+	"Icon": "img/marketplace",
+	"Actions": [
+		{
+			"Icon": "img/defaultImage",
+			"Name": "Kick from VC",
+			"States": [
+				{
+					"Image": "img/defaultImage",
+					"TitleAlignment": "middle",
+					"FontSize": 16
+				}
+			],
+			"Controllers": [
+				"Keypad"
+			],
+			"Tooltip": "Kick a user from any VC in a guild based on the guild and user ID.",
+			"UUID": "com.emilyxfox.vckicker.disconnect",
+            "PropertyInspectorPath": "pi.html"
+		}
+	]
+}

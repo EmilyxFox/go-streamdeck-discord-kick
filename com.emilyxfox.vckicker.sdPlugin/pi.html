@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <script src="https://sdpi-components.dev/releases/v3/sdpi-components.js"></script>
+    <script>
+        const discordLoginRequest = () => {
+            SDPIComponents.streamDeckClient.send('sendToPlugin', {
+                request: "discordLogin"
+            })
+        }
+    </script>
+</head>
+
+<body>
+    <sdpi-item label="Discord Bot Token">
+        <sdpi-password global="true" setting="discordToken"></sdpi-password>
+        <sdpi-button onclick="discordLoginRequest()">
+            Log in bot
+        </sdpi-button>
+    </sdpi-item>
+    <sdpi-item label="Guild ID">
+        <sdpi-textfield setting="guild_id" required></sdpi-textfield>
+    </sdpi-item>
+    <sdpi-item label="User ID">
+        <sdpi-textfield setting="user_id" required></sdpi-textfield>
+    </sdpi-item>
+</body>
+
+</html>

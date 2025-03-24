@@ -2,7 +2,7 @@ module github.com/emilyxfox/go-streamdeck-discord-kick
 
 go 1.24.1
 
-require github.com/emilyxfox/go-streamdeck-sdk v0.2.0
+require github.com/emilyxfox/go-streamdeck-sdk v0.3.0
 
 require (
 	golang.org/x/crypto v0.0.0-20210421170649-83a5a9bb288b // indirect

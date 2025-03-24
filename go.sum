@@ -1,7 +1,7 @@
 github.com/bwmarrin/discordgo v0.28.1 h1:gXsuo2GBO7NbR6uqmrrBDplPUx2T3nzu775q/Rd1aG4=
 github.com/bwmarrin/discordgo v0.28.1/go.mod h1:NJZpH+1AfhIcyQsPeuBKsUtYrRnjkyu0kIVMCHkZtRY=
-github.com/emilyxfox/go-streamdeck-sdk v0.2.0 h1:ZqcfBRhd1DF7yvuynxa/OKPRE3954iWy1rFwSHjxh54=
-github.com/emilyxfox/go-streamdeck-sdk v0.2.0/go.mod h1:fjwIov9JPE7uKnc6imWTNWTfJdxgBWmLmqJndb4y1L4=
+github.com/emilyxfox/go-streamdeck-sdk v0.3.0 h1:KQqhg3HY7TbtSJuUZ0j4IjCifTjlvVlRwPGBWBlp90U=
+github.com/emilyxfox/go-streamdeck-sdk v0.3.0/go.mod h1:fjwIov9JPE7uKnc6imWTNWTfJdxgBWmLmqJndb4y1L4=
 github.com/gorilla/websocket v1.4.2/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
 github.com/gorilla/websocket v1.5.3 h1:saDtZ6Pbx/0u+bgYQ3q96pZgCzfhKXGPqt7kZ72aNNg=
 github.com/gorilla/websocket v1.5.3/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
